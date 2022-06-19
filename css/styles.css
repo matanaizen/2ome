@@ -29,7 +29,7 @@ body {
     border: dotted #EAF6F6 7px;
     border-bottom: none;
     width: 4%;
-    margin: 50px auto;
+    margin: 50px, auto, 50px auto;
     
   }
 
@@ -44,7 +44,7 @@ body {
   }
 
   .middle-container {
-    margin: 100px 0;
+    margin: 100px, 0, 100px 0;
     line-height: 2;
   }
 
