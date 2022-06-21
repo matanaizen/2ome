@@ -1,62 +1,59 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 <head>
-  <meta charset="utf-8">
-  <title> 2ome </title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="images/favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm Matan.</h1>
-    <h2><span class="army">Dis</span>abled IDF</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img src="images/mountain.png" alt="mountain-img">
-  </div>
-
-  <div class="middle-container">
-    <div class="profile">
-      <img class="me" src="images/me.png" alt="profile-pic">
-      <h2>Hello.</h2>
-      <p class="intro">I am disabled IDF, Student for computer science.</p>
+    <div class="top-container">
+        <h1 class="topmain">Green Space</h1>
+        <a class="signin1" href="#middel-container"> Sign Up</a>
     </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="mma" src="images/mma.png" alt="mma-pic">
-        <h3>Jui Jitsus</h3>
-        <p class="mma-intro">I have been training for one year in MMA, mostly jui jitsus by Doron Akiva!.</p>
-      </div>
-      <div class="skill-row1">
-        <img class=fullstuck src="images/fullstuck.png" alt="fullstuck-symbol">
-        <h3>FullStuck developer</h3>
-        <p class="fullstuck-intro">I am QA, building my way for become full stack developer.</p>
-      </div>
-    </div>
-    <hr>
-    <div class="contact-me">
-      <h2>and what about investing?</h2>
-      <h3>if crypto, stcoks market, real estate interest you.</h3>
-      <p>Get In Touch</p>
-      <a class="btn" href="mailto:matanaizenn@gmail.com">CONTACT ME</a>
-    </div>
-  </div>
+
+    <form action="/action_page.php" method="post" >
+        <div id="middel-container">
+            <h2>SIGN IN</h2>
+            <div class="label">
+                <label for="email">E-mail</label>
+                <input type="email" value="" name="email" required><br>
+                <label for="psw">Password</label>
+                <input type="password" name="psw" required>
+                <div class ="">
+                  <button class="sign" type="submit"> SIGN IN </button><br>
+                  <button class="google" type="submit"> SIGN IN WITH GOOGLE </button>
+                </div>
+                <p> Don't have an account? <a href="#bottom-container"> Sign up</a> </p>
+            </div>
+        </div>
+    </form>
+
+    <form action="/action_page.php" method="post">
+        <div id="bottom-container">
+            <h2>SIGN UP</h2>
+            <div class="label">
+                <label for="uname">Username</label>
+                <input type="uname" name="username" required><br>
+                <label for="email">E-mail</label>
+                <input type="email" value="" name="email" required><br>
+                <label for="psw">Password</label>
+                <input type="password" name="psw" required>
+                <div class="">
+                 <button type="submit"> SIGN UP</button><br>
+                 <button class="google" type="submit"> SIGN UP WITH GOOGLE</button>
+                </div>
+            </div>
 
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-    <p class="credits">© Matan Eizenberg.</p>
-  </div>
+        </div>
 
+    </form>
 </body>
-
 </html>
