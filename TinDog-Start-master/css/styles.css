@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 3% 15% 10%;
 
 }
 
@@ -69,11 +69,14 @@ p {
 }
 
 /* Image Title */
+
+.iphone-container {
+    position: relative;
+}
 .iphone-img {
-    max-width: 60%;
+    width: 60%;
     transform: rotate(25deg);
     position: absolute;
-    right: 30%;
 }
 
 /* Features */
@@ -142,3 +145,56 @@ p {
 .pricing-col {
     padding: 3% 2%;
 }
+
+
+/* Call to Action */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding: 6% 5% 3% 5% ;
+}
+
+.action-text {
+    font-size: 4rem;
+    margin: 0 15%;
+}
+
+.button-download-one {
+    margin: 4% 1% 5% 1%;
+    font-size: 1.5rem;
+}
+
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    padding: 7% 0 6% 0;
+}
+
+#footer a {
+    color: black;
+    font-size: 1.3rem;
+    padding: 0 0.7%;
+}
+
+#footer p{
+    font-size: 1.3rem;
+    padding-top: 1%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+@media (max-width: 1035px) {
+    
+    #title {
+        text-align: center;
+    }
+
+    .iphone-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
