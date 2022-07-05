@@ -1,0 +1,156 @@
+body {
+   background: #404659;
+   margin: 0;
+   height: 0;
+}
+
+.top-container{
+    height: 80px;
+    padding-top: 30px;
+    padding-left: 170px;
+}
+.top-container a{
+    float: left;
+    font-size:25px;
+    text-decoration: none;
+    color: #757a86;
+    padding: 30px 25px 5px 30px;
+}
+.top1-container {
+    position: relative;
+    float: left;
+    left: 1670px;
+    bottom: 45px;
+}
+.top1-container a{
+    text-decoration: none;
+    color: #c6cbd6;
+    font-size: 25px;
+    padding: 7px 20px 7px 20px;
+    border-style: solid;
+    border-color: #a64daf  #7270b4  #4a7195 #a64daf ;
+    border-radius: 40px;
+}
+.middle-container {
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 700px;
+    height: 350px;
+
+}
+.middle-container-one {
+    position: relative;
+    left: 970px;
+    bottom: 570px;
+    margin-top: 150px;
+    height: 700px;
+    width: 750px;
+    background-image: url(/exercise3/images/bitcoin.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.diamond {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 80px;
+    top: 50px;
+}
+
+.topic{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.info{
+    color: #73777B;
+    font-size: 22px;
+    margin-right: 60px;
+    margin-top: 0;
+}
+
+.learn{
+    width: 150px;
+    font-size: 15px;
+    margin-left: 80px;
+    margin-top: 60px;
+    color: #44abcc;
+}
+
+.move{
+    width: 70px;
+    position: relative;
+    bottom: 50px;
+}
+
+.bottom-container {
+    color: white;
+    position: relative;
+    bottom: 565px;
+    background: #E03DF9;
+    background-image: -webkit-linear-gradient(left, #E03DF9, #23B3F9);
+    background-image: -moz-linear-gradient(left, #E03DF9, #23B3F9);
+    background-image: -ms-linear-gradient(left, #E03DF9, #23B3F9);
+    background-image: -o-linear-gradient(left, #E03DF9, #23B3F9);
+    background-image: linear-gradient(to right, #E03DF9, #23B3F9);
+    height: 90px;
+    width: 700px;
+    padding:30px 0 5px 50px;
+}
+
+.bottom1-container img{
+    width: 17px;
+    height: 17px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 7px;
+}
+
+.bottom1-container {
+    position: relative;
+    left: 1770px;
+    bottom: 790px;
+    width: 25px;
+    height: 25px;
+}
+
+
+table, td, th {
+    text-align: center;
+    padding: 0 110px 0 10px;
+    font-size: 15px;
+}
+
+.icons{
+    width: 25px;
+    height: 25px;
+}
+
+.play-button-outer {
+    width: 55px;
+    height: 55px;
+    background-color: #42455A;
+    cursor: pointer;
+    border-radius:100%;
+    border-style: solid;
+    border-color: #a64daf  #7270b4  #4a7195 #a64daf ;
+  }
+  
+.play-button {
+    margin: 0 auto;
+    top: 35%;
+    left: 10%;
+    right: 10%;
+    position: relative;  
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 8px 8px 12px;
+    border-color: transparent transparent transparent white;
+    opacity: .75; 
+}
+  
+  
