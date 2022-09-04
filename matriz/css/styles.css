@@ -1,0 +1,25 @@
+#maindiv {
+    height: 306px;
+    width: 306px;
+    background-color: gray;
+
+    
+}
+
+.square {
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-image:url("/matriz/images/star.png");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:1px black solid;
+}
+
+.man{
+    background-image:url("/matriz/images/man.png");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
