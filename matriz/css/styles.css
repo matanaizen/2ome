@@ -1,25 +1,99 @@
-#maindiv {
-    height: 306px;
-    width: 306px;
-    background-color: gray;
+body{
+    background-color: black;
+}
 
-    
+
+h1{
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+    color: white;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 70px;
+}
+
+p {
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    color: white;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 50px;
+}
+#maindiv {
+    margin: 30px auto 0 auto;
+    text-align: center;
+    height: 650px;
+    width: 650px;
+    background-color: gray;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+
 }
 
 .square {
     float: left;
-    height: 100px;
-    width: 100px;
-    background-image:url("/matriz/images/star.png");
+    height: 65px;
+    width: 65px;
+    padding: 0;
+}
+
+
+.star {
+    background-image: url("/images/star.png");
+    background-size: 23%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.man {
+    background-image: url("/images/man.png");
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ghost {
+    background-image: url("/images/ghost.png");
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ghost1 {
+    background-image: url("/images/ghost.png");
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ghost2 {
+    background-image: url("/images/ghost.png");
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ghost3 {
+    background-image: url("/images/ghost.png");
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.diamond {
+    background-image: url("/images/diamond.png");
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
-    border:1px black solid;
 }
 
-.man{
-    background-image:url("/matriz/images/man.png");
-    background-size: 30%;
+.wall {
+    background-image: url("/images/wall.png");
+    background-size: 45%;
     background-repeat: no-repeat;
     background-position: center;
 }
