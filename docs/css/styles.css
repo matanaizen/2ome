@@ -43,98 +43,98 @@ p {
 
 
 .star {
-    background-image: url("images/star.png");
+    background-image: url("../docs/images/star.png");
     background-size: 23%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .man {
-    background-image: url("images/man.png");
+    background-image: url("../docs/images/man.png");
     background-size: 45%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .ghost {
-    background-image: url("images/ghost.png");
+    background-image: url("../docs/images/ghost.png");
     background-size: 45%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .ghost1 {
-    background-image: url("images/ghost1.png");
+    background-image: url("../docs/images/ghost1.png");
     background-size: 45%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .ghost2 {
-    background-image: url("images/ghost2.png");
+    background-image: url("../docs/images/ghost2.png");
     background-size: 45%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .ghost3 {
-    background-image: url("images/ghost3.png");
+    background-image: url("../docs/images/ghost3.png");
     background-size: 45%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .weakghost {
-    background-image: url("images/weakghost.png");
+    background-image: url("../docs/images/weakghost.png");
     background-size: 47%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .weakghost1 {
-    background-image: url("images/weakghost.png");
+    background-image: url("../docs/images/weakghost.png");
     background-size: 47%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .weakghost2 {
-    background-image: url("images/weakghost.png");
+    background-image: url("../docs/images/weakghost.png");
     background-size: 47%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .weakghost3 {
-    background-image: url("images/weakghost.png");
+    background-image: url("../docs/images/weakghost.png");
     background-size: 47%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .diamond {
-    background-image: url("images/diamond.png");
+    background-image: url("../docs/images/diamond.png");
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .wall {
-    background-image: url("images/wall.png");
+    background-image: url("../docs/images/wall.png");
     background-size: 45%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .shield {
-    background-image: url("images/shield.png");
+    background-image: url("../docs/images/shield.png");
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .superhero {
-    background-image: url("images/superhero.png");
+    background-image: url("../docs/images/superhero.png");
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
