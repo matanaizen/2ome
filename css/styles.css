@@ -50,49 +50,49 @@ p {
 }
 
 .man {
-    background-image: url("/images/man.png");
+    background-image: url("../images/man.png");
     background-size: 45%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .ghost {
-    background-image: url("/images/ghost.png");
+    background-image: url("../images/ghost.png");
     background-size: 45%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .ghost1 {
-    background-image: url("/images/ghost.png");
+    background-image: url("../images/ghost.png");
     background-size: 45%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .ghost2 {
-    background-image: url("/images/ghost.png");
+    background-image: url("../images/ghost.png");
     background-size: 45%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .ghost3 {
-    background-image: url("/images/ghost.png");
+    background-image: url("../images/ghost.png");
     background-size: 45%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .diamond {
-    background-image: url("/images/diamond.png");
+    background-image: url("../images/diamond.png");
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .wall {
-    background-image: url("/images/wall.png");
+    background-image: url("../images/wall.png");
     background-size: 45%;
     background-repeat: no-repeat;
     background-position: center;
