@@ -43,7 +43,7 @@ p {
 
 
 .star {
-    background-image: url("images/star.png");
+    background-image: url("../../images/star.png");
     background-size: 23%;
     background-repeat: no-repeat;
     background-position: center;
